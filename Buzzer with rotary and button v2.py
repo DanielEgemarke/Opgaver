@@ -4,6 +4,8 @@ from machine import ADC
 from time import sleep
 from machine import Pin
 from gpio_lcd import GpioLcd
+#GPIO_LCD hentes fra Kevin's Github
+
 
 def tone(pin, frequency, duration):#Definere vores tone function, men pin på buzzer, frekvens og hvor tit den holder pause i milisekunder
     pin.freq(frequency) # Sætter frekvensen som er defineret af vores potentiumeter
